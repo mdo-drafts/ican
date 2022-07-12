@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+//BAD
 public class Solution {
 
     public int characterReplacement(String s, int k) {

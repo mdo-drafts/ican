@@ -72,4 +72,18 @@ public class SolutionTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void test_5() {
+
+        int[] input = {0, 0, 0, 0,-1,-1,-1, 1,1,1};
+
+        List<List<Integer>> actual = sut.threeSum(input);
+
+        List<List<Integer>> expected = asList(
+                asList(-1, 0, 1),
+                asList(0, 0, 0)
+        );
+        assertEquals(expected, actual);
+    }
+
 }
